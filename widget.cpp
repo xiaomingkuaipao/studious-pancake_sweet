@@ -3,7 +3,7 @@
 
 #include <QPixmap>
 
-
+#include <QDebug>
 
 Widget::Widget(QWidget *parent)
     : QWidget(parent)
@@ -12,6 +12,7 @@ Widget::Widget(QWidget *parent)
     ui->setupUi(this);
 
 
+    qDebug()<<"远程库你好"<<endl;
 
     timer=new QTimer();
     //定时器有一个超时信号，timeout()信号
