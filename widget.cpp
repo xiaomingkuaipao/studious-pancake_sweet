@@ -13,6 +13,8 @@ Widget::Widget(QWidget *parent)
 
 
     qDebug()<<"远程库你好"<<endl;
+    qDebug()<<"QT你好"<<endl;
+    
 
     timer=new QTimer();
     //定时器有一个超时信号，timeout()信号
